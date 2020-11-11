@@ -49,6 +49,14 @@ export default () => {
                   About us
                 </a>
               </li>
+              <li className="menu-nav__item">
+                <a
+                  onClick={mobileNavigate('/community')}
+                  className="menu-nav__link"
+                >
+                  Community Content
+                </a>
+              </li>
             </ul>
           </Menu>
         </div>
@@ -75,6 +83,11 @@ export default () => {
             <li className="menu-nav__item">
               <Link to="/#hosts" className="menu-nav__link">
                 About us
+              </Link>
+            </li>
+            <li className="menu-nav__item">
+              <Link to="/community" className="menu-nav__link">
+                Community Content
               </Link>
             </li>
           </ul>
